@@ -68,10 +68,15 @@ INTERNAL_MTK_RECOVERYIMAGE_ARGS := \
 		--ramdisk $(recovery_ramdisk).mtk
 
 $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) \
-		$(recovery_ramdisk).mtk $(INSTALLED_KERNEL_TARGET).mtk
+		$(recovery_ramdisk).mtk $(INSTALLED_KERNEL_TARGET).mtk \
+		$(INSTALLED_RECOVERYASBOOTIMAGE_TARGET)
 	@echo -e ${CL_CYN}"----- Making recovery image ------"${CL_RST}
 	$(MKBOOTIMG) $(INTERNAL_MTK_RECOVERYIMAGE_ARGS) \
-		$(BOARD_MKBOOTIMG_ARGS) --output $@
+		$(INTERNAL_MKBOOTIMG_VERSION_ARGS) $(BOARD_MKBOOTIMG_ARGS) --output $@
+	$(if $(filter true,$(PRODUCTS.$(INTERNAL_PRODUCT).PRODUCT_SUPPORTS_BOOT_SIGNER)),\
+		$(BOOT_SIGNER) /recovery $@ $(PRODUCTS.$(INTERNAL_PRODUCT).PRODUCT_VERITY_SIGNING_KEY).pk8 \
+			$(PRODUCTS.$(INTERNAL_PRODUCT).PRODUCT_VERITY_SIGNING_KEY).x509.pem $@)
 	$(hide) $(call assert-max-image-size,$@, \
 		$(BOARD_RECOVERYIMAGE_PARTITION_SIZE),raw)
 	@echo -e ${CL_CYN}"Made recovery image: $@"${CL_RST}
+
