@@ -32,7 +32,7 @@ TARGET_USES_64_BIT_BINDER := true
 TARGET_PREBUILT_KERNEL := device/powkiddy/h55_mt8163_60_n/kernel
 BOARD_MTK_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
-BOARD_MKBOOTIMG_ARGS := --pagesize 2048 --base 0x40078000 --kernel_offset 0x00008000 --ramdisk_offset 0x03f88000 --second_offset 0x00e88000 --tags_offset 0x0df88000 --cmdline "bootopt=64S3,32N2,64N2" --board "vWC200103"
+BOARD_MKBOOTIMG_ARGS := --pagesize 2048 --base 0x40078000 --kernel_offset 0x00008000 --ramdisk_offset 0x05f88000 --second_offset 0x00f00000 --tags_offset 0x0df88000 --cmdline "bootopt=64S3,32N2,64N2" --board "vWC200103"
 
 #Mediatek flags
 BOARD_HAS_MTK_HARDWARE := true
