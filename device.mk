@@ -1,5 +1,5 @@
 # prebuilt kernel
-TARGET_PREBUILT_KERNEL := device/powkiddy/h55_mt8163_60_n/kernel
+TARGET_PREBUILT_KERNEL := device/powkiddy/x18/kernel
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/fstab.mt8163:root/fstab.mt8163 \

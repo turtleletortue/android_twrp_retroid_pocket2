@@ -1,1 +1,1 @@
-add_lunch_combo full_h55_mt8163_60_n-eng
+add_lunch_combo x18-eng
