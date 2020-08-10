@@ -6,3 +6,4 @@ Based on https://github.com/mt8163/android_device_bq_aquaris_m8 and https://gith
 
 
 Thanks to @R0rt1z2 & @488315 for helping on this!
+Special thanks to @t0x1cSH & @carlitros900 for the touchscreen kernel fix! 
