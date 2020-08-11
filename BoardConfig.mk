@@ -108,7 +108,7 @@ TW_EXCLUDE_TWRPAPP := true
 TW_BACKUP_DATA_MEDIA := true
 
 #Recovery.fstab
-TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/twrp.fstab
 
 # Touchscreen fix
 #RECOVERY_TOUCHSCREEN_FLIP_Y := true
