@@ -4,7 +4,7 @@
 /cache            ext4       /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/cache          flags=fsflags=noatime,nosuid,nodev
 /data             ext4       /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/userdata       flags=fsflags=noatime,nosuid,nodev;forceencrypt=/dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/metadata
 /system           ext4       /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system
-/system_image     emmc       /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system
+/system_image     emmc       /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/system         flags=flashimg=1
 /external_sd      auto       /dev/block/mmcblk1p1                                                 flags=display="External SD";storage;removable
 /adopted_sd       auto       /dev/block/platform/soc/11240000.mmc/by-name/android_expand   /dev/block/mmcblk1        flags=display="Adopted External SD";storage;removable;fsflags=noatime,nosuid,nodev
 /usbotg           auto       /dev/block/sda1       /dev/block/sda                                 flags=display="USB-OTG";storage;removable;backup=0
