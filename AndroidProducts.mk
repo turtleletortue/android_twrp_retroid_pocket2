@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/x18.mk
+    $(LOCAL_DIR)/pocket2.mk
