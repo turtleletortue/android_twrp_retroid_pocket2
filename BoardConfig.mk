@@ -117,3 +117,6 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
 #TW_CRYPTO_USE_SYSTEM_VOLD := true
 
 LZMA_RAMDISK_TARGETS := recovery
+
+# Stop locking the screen
+TW_NO_SCREEN_TIMEOUT := true
