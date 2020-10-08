@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <recovery>
 	<details>
-		<resolution width="320" height="480"/>
+		<resolution width="480" height="1000"/>
 		<author>TeamWin</author>
 		<title>Backup Naowz</title>
 		<description>Default basic theme</description>
 		<preview>preview.png</preview>
-		<themeversion>1</themeversion>
+		<themeversion>2</themeversion>
 	</details>
 
 	<include>
@@ -14,14 +14,14 @@
 	</include>
 
 	<resources>
-		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="18"/>
-		<font name="font_m" filename="RobotoCondensed-Regular.ttf" size="16"/>
-		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="12"/>
-		<font name="fixed" filename="DroidSansMono.ttf" size="14"/>
+		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="24"/>
+		<font name="font_m" filename="RobotoCondensed-Regular.ttf" size="18"/>
+		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="14"/>
+		<font name="fixed" filename="DroidSansMono.ttf" size="12"/>
 
-		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="18"/>
-		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="14"/>
-		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="12"/>
+		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="30"/>
+		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="20"/>
+		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="14"/>
 
 		<image name="logo" filename="logo" retainaspect="1"/>
 		<image name="main_button" filename="main_button"/>
@@ -74,106 +74,106 @@
 		<variable name="tw_samsung_navbar" value="0" persist="1"/>
 
 		<variable name="tw_hide_kb" value="0"/>
-		<variable name="screen_width" value="320"/>
-		<variable name="screen_height" value="480"/>
-		<variable name="status_height" value="22"/>
-		<variable name="header_height" value="68"/>
-		<variable name="navbar_height" value="33"/>
-		<variable name="content_width" value="299"/>
-		<variable name="content_overlay_width" value="277"/>
-		<variable name="dialog_height" value="176"/>
-		<variable name="back_button_x" value="71"/>
-		<variable name="console_button_x" value="249"/>
-		<variable name="indent" value="11"/>
-		<variable name="col1_x_left" value="21"/>
-		<variable name="col1_x_header" value="55"/>
-		<variable name="center_x" value="160"/>
-		<variable name="col1_x_right" value="171"/>
-		<variable name="indent_right" value="306"/>
-		<variable name="tab_height" value="24"/>
-		<variable name="tab_indicator_height" value="1"/>
-		<variable name="tab_y" value="76"/>
-		<variable name="tab3_width" value="107"/>
-		<variable name="tab4_width" value="80"/>
-		<variable name="tab5_width" value="64"/>
-		<variable name="tab3_col2_x" value="107"/>
-		<variable name="tab3_col3_x" value="213"/>
-		<variable name="tab4_col2_x" value="80"/>
-		<variable name="tab4_col4_x" value="240"/>
-		<variable name="tab5_col2_x" value="64"/>
-		<variable name="tab5_col3_x" value="128"/>
-		<variable name="tab5_col4_x" value="192"/>
-		<variable name="tab5_col5_x" value="256"/>
-		<variable name="tab5_centered_col1_x" value="32"/>
-		<variable name="tab5_centered_col2_x" value="96"/>
-		<variable name="tab5_centered_col4_x" value="224"/>
-		<variable name="tab5_centered_col5_x" value="288"/>
-		<variable name="btn3_col2_x" value="114"/>
-		<variable name="btn3_col3_x" value="217"/>
-		<variable name="btn4_col2_x" value="88"/>
-		<variable name="btn4_col3_x" value="165"/>
-		<variable name="btn4_col4_x" value="243"/>
-		<variable name="row1_header_y" value="0"/>
-		<variable name="row2_header_y" value="22"/>
-		<variable name="row3_header_y" value="23"/>
-		<variable name="row4_header_y" value="42"/>
-		<variable name="row1_y" value="64"/>
-		<variable name="row1a_y" value="72"/>
-		<variable name="row2_y" value="80"/>
-		<variable name="row2a_y" value="88"/>
-		<variable name="row_tab_y" value="87"/>
-		<variable name="row2_input_y" value="95"/>
-		<variable name="row3_y" value="96"/>
-		<variable name="row3_input_y" value="103"/>
-		<variable name="row3a_y" value="104"/>
-		<variable name="row4_y" value="112"/>
-		<variable name="row4_input_y" value="119"/>
-		<variable name="row4a_y" value="120"/>
-		<variable name="row5_y" value="128"/>
-		<variable name="row5a_y" value="140"/>
-		<variable name="row6_y" value="144"/>
-		<variable name="row6a_y" value="152"/>
-		<variable name="row7_y" value="160"/>
-		<variable name="row7a_y" value="168"/>
-		<variable name="row8_y" value="176"/>
-		<variable name="row8a_y" value="184"/>
-		<variable name="row9_y" value="192"/>
-		<variable name="row9a_y" value="200"/>
-		<variable name="row10_y" value="208"/>
-		<variable name="row10a_y" value="216"/>
-		<variable name="row11_y" value="224"/>
-		<variable name="row11a_y" value="232"/>
-		<variable name="row12_y" value="240"/>
-		<variable name="row12a_y" value="248"/>
-		<variable name="row13_y" value="256"/>
-		<variable name="row13a_y" value="264"/>
-		<variable name="row14_y" value="272"/>
-		<variable name="row14a_y" value="280"/>
-		<variable name="row15_y" value="288"/>
-		<variable name="row15a_y" value="296"/>
-		<variable name="row16_y" value="304"/>
-		<variable name="row16a_y" value="312"/>
-		<variable name="row17_y" value="320"/>
-		<variable name="row17a_y" value="328"/>
-		<variable name="row18_y" value="336"/>
-		<variable name="row18a_y" value="344"/>
-		<variable name="row19_y" value="352"/>
-		<variable name="row19a_y" value="360"/>
-		<variable name="row20_y" value="368"/>
-		<variable name="row20a_y" value="376"/>
-		<variable name="row21_y" value="384"/>
-		<variable name="row21a_y" value="392"/>
-		<variable name="row22_y" value="400"/>
-		<variable name="row22a_y" value="408"/>
-		<variable name="row23_y" value="416"/>
-		<variable name="row23a_y" value="424"/>
-		<variable name="row24_y" value="432"/>
-		<variable name="row24a_y" value="440"/>
-		<variable name="row25_y" value="448"/>
-		<variable name="navbar_y" value="448"/>
-		<variable name="navbar_btn_y" value="464"/>
-		<variable name="keyboard_y" value="287"/>
-		<variable name="keyboard_terminal_y" value="263"/>
+		<variable name="screen_width" value="480"/>
+		<variable name="screen_height" value="800"/>
+		<variable name="status_height" value="30"/>
+		<variable name="header_height" value="110"/>
+		<variable name="navbar_height" value="52"/>
+		<variable name="content_width" value="450"/>
+		<variable name="content_overlay_width" value="420"/>
+		<variable name="dialog_height" value="286"/>
+		<variable name="back_button_x" value="105"/>
+		<variable name="console_button_x" value="375"/>
+		<variable name="indent" value="15"/>
+		<variable name="col1_x_left" value="30"/>
+		<variable name="col1_x_header" value="82"/>
+		<variable name="center_x" value="240"/>
+		<variable name="col1_x_right" value="255"/>
+		<variable name="indent_right" value="465"/>
+		<variable name="tab_height" value="40"/>
+		<variable name="tab_indicator_height" value="3"/>
+		<variable name="tab_y" value="130"/>
+		<variable name="tab3_width" value="160"/>
+		<variable name="tab4_width" value="120"/>
+		<variable name="tab5_width" value="96"/>
+		<variable name="tab3_col2_x" value="160"/>
+		<variable name="tab3_col3_x" value="320"/>
+		<variable name="tab4_col2_x" value="120"/>
+		<variable name="tab4_col4_x" value="360"/>
+		<variable name="tab5_col2_x" value="96"/>
+		<variable name="tab5_col3_x" value="192"/>
+		<variable name="tab5_col4_x" value="288"/>
+		<variable name="tab5_col5_x" value="384"/>
+		<variable name="tab5_centered_col1_x" value="48"/>
+		<variable name="tab5_centered_col2_x" value="144"/>
+		<variable name="tab5_centered_col4_x" value="336"/>
+		<variable name="tab5_centered_col5_x" value="432"/>
+		<variable name="btn3_col2_x" value="170"/>
+		<variable name="btn3_col3_x" value="325"/>
+		<variable name="btn4_col2_x" value="131"/>
+		<variable name="btn4_col3_x" value="247"/>
+		<variable name="btn4_col4_x" value="363"/>
+		<variable name="row1_header_y" value="2"/>
+		<variable name="row2_header_y" value="30"/>
+		<variable name="row3_header_y" value="40"/>
+		<variable name="row4_header_y" value="74"/>
+		<variable name="row1_y" value="110"/>
+		<variable name="row1a_y" value="123"/>
+		<variable name="row2_y" value="136"/>
+		<variable name="row2a_y" value="149"/>
+		<variable name="row_tab_y" value="147"/>
+		<variable name="row2_input_y" value="162"/>
+		<variable name="row3_y" value="162"/>
+		<variable name="row3_input_y" value="175"/>
+		<variable name="row3a_y" value="175"/>
+		<variable name="row4_y" value="188"/>
+		<variable name="row4_input_y" value="201"/>
+		<variable name="row4a_y" value="201"/>
+		<variable name="row5_y" value="214"/>
+		<variable name="row5a_y" value="227"/>
+		<variable name="row6_y" value="240"/>
+		<variable name="row6a_y" value="253"/>
+		<variable name="row7_y" value="266"/>
+		<variable name="row7a_y" value="279"/>
+		<variable name="row8_y" value="292"/>
+		<variable name="row8a_y" value="305"/>
+		<variable name="row9_y" value="318"/>
+		<variable name="row9a_y" value="331"/>
+		<variable name="row10_y" value="344"/>
+		<variable name="row10a_y" value="357"/>
+		<variable name="row11_y" value="370"/>
+		<variable name="row11a_y" value="383"/>
+		<variable name="row12_y" value="396"/>
+		<variable name="row12a_y" value="409"/>
+		<variable name="row13_y" value="422"/>
+		<variable name="row13a_y" value="435"/>
+		<variable name="row14_y" value="448"/>
+		<variable name="row14a_y" value="461"/>
+		<variable name="row15_y" value="474"/>
+		<variable name="row15a_y" value="487"/>
+		<variable name="row16_y" value="500"/>
+		<variable name="row16a_y" value="513"/>
+		<variable name="row17_y" value="526"/>
+		<variable name="row17a_y" value="539"/>
+		<variable name="row18_y" value="552"/>
+		<variable name="row18a_y" value="565"/>
+		<variable name="row19_y" value="578"/>
+		<variable name="row19a_y" value="591"/>
+		<variable name="row20_y" value="604"/>
+		<variable name="row20a_y" value="617"/>
+		<variable name="row21_y" value="630"/>
+		<variable name="row21a_y" value="643"/>
+		<variable name="row22_y" value="656"/>
+		<variable name="row22a_y" value="669"/>
+		<variable name="row23_y" value="682"/>
+		<variable name="row23a_y" value="695"/>
+		<variable name="row24_y" value="708"/>
+		<variable name="row24a_y" value="721"/>
+		<variable name="row25_y" value="734"/>
+		<variable name="navbar_y" value="748"/>
+		<variable name="navbar_btn_y" value="774"/>
+		<variable name="keyboard_y" value="464"/>
+		<variable name="keyboard_terminal_y" value="422"/>
 		<variable name="background_color" value="#1A1A1A"/>
 		<variable name="accent_color" value="#0090CA"/>
 		<variable name="accent_color_semitransparent" value="#0090CA30"/>
@@ -192,39 +192,39 @@
 		<variable name="fileselector_highlight_color" value="#555555"/>
 		<variable name="fileselector_separatorheight" value="1"/>
 		<variable name="fileselector_spacing" value="0"/>
-		<variable name="fileselector_install_height" value="288"/>
-		<variable name="fileselector_filemanager_height" value="344"/>
+		<variable name="fileselector_install_height" value="468"/>
+		<variable name="fileselector_filemanager_height" value="559"/>
 		<variable name="partitionlist_spacing" value="0"/>
-		<variable name="partitionlist_storage_height" value="136"/>
-		<variable name="partitionlist_flashimage_height" value="136"/>
-		<variable name="partitionlist_wipe_height" value="272"/>
-		<variable name="partitionlist_mount_height" value="208"/>
-		<variable name="partitionlist_backup_height" value="192"/>
-		<variable name="listbox_timezone_height" value="189"/>
-		<variable name="listbox_settings_height" value="240"/>
-		<variable name="fastscroll_w" value="7"/>
-		<variable name="fastscroll_linew" value="1"/>
-		<variable name="fastscroll_rectw" value="7"/>
-		<variable name="fastscroll_recth" value="27"/>
-		<variable name="slidervalue_lineh" value="1"/>
+		<variable name="partitionlist_storage_height" value="221"/>
+		<variable name="partitionlist_flashimage_height" value="221"/>
+		<variable name="partitionlist_wipe_height" value="442"/>
+		<variable name="partitionlist_mount_height" value="338"/>
+		<variable name="partitionlist_backup_height" value="312"/>
+		<variable name="listbox_timezone_height" value="306"/>
+		<variable name="listbox_settings_height" value="400"/>
+		<variable name="fastscroll_w" value="10"/>
+		<variable name="fastscroll_linew" value="2"/>
+		<variable name="fastscroll_rectw" value="10"/>
+		<variable name="fastscroll_recth" value="52"/>
+		<variable name="slidervalue_lineh" value="2"/>
 		<variable name="slidervalue_padding" value="0"/>
-		<variable name="slidervalue_sliderw" value="21"/>
-		<variable name="slidervalue_sliderh" value="27"/>
-		<variable name="slideout_height" value="422"/>
-		<variable name="slideout_bg_height" value="430"/>
-		<variable name="input_height" value="16"/>
-		<variable name="input_line_width" value="1"/>
-		<variable name="console_height" value="240"/>
-		<variable name="console_terminal_height" value="238"/>
-		<variable name="dialog_button_x" value="206"/>
-		<variable name="pattern_x" value="37"/>
-		<variable name="pattern_dot_dia" value="10"/>
+		<variable name="slidervalue_sliderw" value="32"/>
+		<variable name="slidervalue_sliderh" value="48"/>
+		<variable name="slideout_height" value="700"/>
+		<variable name="slideout_bg_height" value="718"/>
+		<variable name="input_height" value="26"/>
+		<variable name="input_line_width" value="2"/>
+		<variable name="console_height" value="390"/>
+		<variable name="console_terminal_height" value="369"/>
+		<variable name="dialog_button_x" value="310"/>
+		<variable name="pattern_x" value="60"/>
+		<variable name="pattern_dot_dia" value="12"/>
 		<variable name="pattern_line_w" value="4"/>
-		<variable name="pattern_size" value="207"/>
+		<variable name="pattern_size" value="360"/>
 	</variables>
 
 	<mousecursor>
-		<placement w="4" h="4"/>
+		<placement w="15" h="15"/>
 		<background color="#FFFF00FF" resource="cursor"/>
 		<speed multiplier="2.5"/>
 	</mousecursor>
@@ -336,7 +336,7 @@
 
 			<action>
 				<touch key="power"/>
-				<action function="overlay">lock</action>
+				<action function="togglebacklight"/>
 			</action>
 
 			<action>
@@ -561,12 +561,12 @@
 		<template name="keyboardterminaltemplate">
 			<keyboard>
 				<condition var1="tw_hide_kb" var2="0"/>
-				<placement x="0" y="%keyboard_terminal_y%" w="%screen_width%" h="24"/>
+				<placement x="0" y="%keyboard_terminal_y%" w="%screen_width%" h="42"/>
 				<keymargin x="0" y="0"/>
 				<background color="#111111"/>
 				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
 				<key-other color="#111111" font="keylabel-small" textcolor="#5b5b5bff"/>
-				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="0" y="0"/>
+				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="12" y="0"/>
 				<keylabel key="0:k:29" text="Ctrl"/>
 				<keylabel key="0:c:27" text="Esc"/>
 				<keylabel key="0:c:9" text="Tab"/>
@@ -577,8 +577,8 @@
 				<highlight color="%highlight_color%"/>
 				<ctrlhighlight color="#0090CA80"/>
 				<layout1>
-					<keysize height="24" width="44"/>
-					<row1 key01="48:k:29" key02="48:c:27" long02=":c:3" key03="48:c:9" key04="44:k:105" key05="44:k:108" key06="44:k:103" key07="44:k:106"/>
+					<keysize height="42" width="69"/>
+					<row1 key01="68:k:29" key02="68:c:27" long02=":c:3" key03="68:c:9" key04="69:k:105" key05="69:k:108" key06="69:k:103" key07="69:k:106"/>
 				</layout1>
 			</keyboard>
 		</template>
@@ -586,50 +586,50 @@
 		<template name="keyboardtemplate">
 			<keyboard>
 				<condition var1="tw_hide_kb" var2="0"/>
-				<placement x="0" y="%keyboard_y%" w="320" h="161"/>
-				<keymargin x="2" y="2"/>
+				<placement x="0" y="%keyboard_y%" w="480" h="284"/>
+				<keymargin x="4" y="4"/>
 				<background color="#111111"/>
 				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
 				<key-other color="#111111" font="keylabel-small" textcolor="#5b5b5bff"/>
-				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="0" y="0"/>
+				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="6" y="0"/>
 				<keylabel key="0:c:8" text="Bksp" resource="backspace"/>
 				<keylabel key="0:action" text="Enter" resource="enter"/>
 				<keylabel key=" " text="Space" resource="space"/>
 				<highlight color="%highlight_color%"/>
 				<capshighlight color="%highlight_color%"/>
 				<layout1>
-					<keysize height="36" width="32"/>
+					<keysize height="71" width="48"/>
 					<row1 key01="q" long01="1" key02="w" long02="2" key03="e" long03="3" key04="r" long04="4" key05="t" long05="5" key06="y" long06="6" key07="u" long07="7" key08="i" long08="8" key09="o" long09="9" key10="p" long10="0"/>
-					<row2 key01="16:" key02="a" long02="@" key03="s" long03="#" key04="d" long04="$" key05="f" long05="%" key06="g" long06="&amp;" key07="h" long07="*" key08="j" long08="-" key09="k" long09="+" key10="l" long10="_" key11="16:"/>
-					<row3 key01="48:layout2" key02="z" long02="!" key03="x" long03="&quot;" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="48:c:8"/>
-					<row4 key01="48:layout3" key02="/" key03="160: " key04="." key05="48:action"/>
+					<row2 key01="24:" key02="a" long02="@" key03="s" long03="#" key04="d" long04="$" key05="f" long05="%" key06="g" long06="&amp;" key07="h" long07="*" key08="j" long08="-" key09="k" long09="+" key10="l" long10="_" key11="24:"/>
+					<row3 key01="72:layout2" key02="z" long02="!" key03="x" long03="&quot;" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="72:c:8"/>
+					<row4 key01="72:layout3" key02="/" key03="240: " key04="." key05="72:action"/>
 					<keylabel key="0:layout2" text="Shift" resource="shift"/>
 					<keylabel key="0:layout3" text="?123"/>
 				</layout1>
 				<layout2>
-					<keysize height="36" width="32" capslock="0" revert_layout="1"/>
+					<keysize height="71" width="48" capslock="0" revert_layout="1"/>
 					<row1 key01="Q" long01="1" key02="W" long02="2" key03="E" long03="3" key04="R" long04="4" key05="T" long05="5" key06="Y" long06="6" key07="U" long07="7" key08="I" long08="8" key09="O" long09="9" key10="P" long10="0"/>
-					<row2 key01="16:" key02="A" long02="@" key03="S" long03="#" key04="D" long04="$" key05="F" long05="%" key06="G" long06="&amp;" key07="H" long07="*" key08="J" long08="-" key09="K" long09="+" key10="L" long10="_" key11="16:"/>
-					<row3 key01="48:layout1" key02="Z" long02="!" key03="X" long03="&quot;" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="48:c:8"/>
-					<row4 key01="48:layout3" key02="/" key03="160: " key04="." key05="48:action"/>
+					<row2 key01="24:" key02="A" long02="@" key03="S" long03="#" key04="D" long04="$" key05="F" long05="%" key06="G" long06="&amp;" key07="H" long07="*" key08="J" long08="-" key09="K" long09="+" key10="L" long10="_" key11="24:"/>
+					<row3 key01="72:layout1" key02="Z" long02="!" key03="X" long03="&quot;" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="72:c:8"/>
+					<row4 key01="72:layout3" key02="/" key03="240: " key04="." key05="72:action"/>
 					<keylabel key="0:layout1" text="Shift" resource="shift_fill"/>
 					<keylabel key="0:layout3" text="?123"/>
 				</layout2>
 				<layout3>
-					<keysize height="36" width="32"/>
+					<keysize height="71" width="48"/>
 					<row1 key01="1" key02="2" key03="3" key04="4" key05="5" key06="6" key07="7" key08="8" key09="9" key10="0"/>
 					<row2 key01="@" key02="#" key03="$" key04="%" key05="&amp;" key06="*" key07="-" key08="+" key09="(" key10=")"/>
-					<row3 key01="48:layout4" key02="!" key03="32:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="48:c:8"/>
-					<row4 key01="48:layout1" key02="," key03="160: " key04="." key05="48:action"/>
+					<row3 key01="72:layout4" key02="!" key03="48:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="72:c:8"/>
+					<row4 key01="72:layout1" key02="," key03="240: " key04="." key05="72:action"/>
 					<keylabel key="0:layout1" text="ABC"/>
 					<keylabel key="0:layout4" text="~\{"/>
 				</layout3>
 				<layout4>
-					<keysize height="36" width="32"/>
-					<row1 key01="~" key02="`" key03="|" key04="32:" key05="32:" key06="32:" key07="%" key08="32:" key09="{" key10="}"/>
-					<row2 key01="32:" key02="32:" key03="32:" key04="32:" key05="32:" key06="^" key07="_" key08="=" key09="[" key10="]"/>
-					<row3 key01="48:layout3" key02="32:" key03="32:" key04="32:" key05="32:" key06="\" key07="&lt;" key08="&gt;" key09="48:c:8"/>
-					<row4 key01="48:layout1" key02="32:c:34" key03="160: " key04="." key05="48:action"/>
+					<keysize height="71" width="48"/>
+					<row1 key01="~" key02="`" key03="|" key04="48:" key05="48:" key06="48:" key07="%" key08="48:" key09="{" key10="}"/>
+					<row2 key01="48:" key02="48:" key03="48:" key04="48:" key05="48:" key06="^" key07="_" key08="=" key09="[" key10="]"/>
+					<row3 key01="72:layout3" key02="48:" key03="48:" key04="48:" key05="48:" key06="\" key07="&lt;" key08="&gt;" key09="72:c:8"/>
+					<row4 key01="72:layout1" key02="48:c:34" key03="240: " key04="." key05="72:action"/>
 					<keylabel key="0:layout1" text="ABC"/>
 					<keylabel key="0:layout3" text="?123"/>
 				</layout4>
