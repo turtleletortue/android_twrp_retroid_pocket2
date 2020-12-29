@@ -28,7 +28,8 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 #TARGET_PREBUILT_KERNEL := device/retroid/pocket2/kernel
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_SOURCE := kernel/retroid/pocket2
-TARGET_KERNEL_CONFIG := real6580_weg_m_defconfig
+TARGET_KERNEL_CONFIG := gbx2000v1_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := $(shell pwd)/prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-eabi/bin/arm-eabi-
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 BOARD_MKBOOTIMG_ARGS := --pagesize 2048 --base 0x80000000 --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --second_offset 0x00f00000 --tags_offset 0x0e000000 --cmdline "bootopt=64S3,32S1,32S1 androidboot.selinux=permissive"
 
@@ -52,7 +53,7 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # TWRP-Specific
 BOARD_SUPPRESS_SECURE_ERASE := true
-TW_THEME := portrait_ldpi
+TW_THEME := landscape_mdpi
 DEVICE_RESOLUTION := 480x640
 DEVICE_SCREEN_WIDTH := 480
 DEVICE_SCREEN_HEIGHT := 640 
@@ -96,8 +97,8 @@ TW_MTP_DEVICE := "/dev/mtp_usb"
 TW_NO_USB_STORAGE := false
 
 # Logs
-TARGET_USES_LOGD := true
-TWRP_INCLUDE_LOGCAT := true
+#TARGET_USES_LOGD := true
+#TWRP_INCLUDE_LOGCAT := true
 
 # Exclude APP
 TW_EXCLUDE_TWRPAPP := true
@@ -119,4 +120,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/recovery.fstab
 LZMA_RAMDISK_TARGETS := recovery
 
 # Stop locking the screen
-TW_NO_SCREEN_TIMEOUT := true
+#TW_NO_SCREEN_TIMEOUT := true
